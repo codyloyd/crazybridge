@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <title></title>
 </head>
 <body>
   <style>
   :root {
-    font-family: Sans-serif;
+    font-family: Bungee, Sans-serif;
     font-size: 18px;
     color: var(--black);
     --blue: #3454D1;
@@ -28,6 +29,7 @@
     margin-bottom: 1rem;
   }
   h1 {
+    font-weight: 400;
     background: var(--theme-color);
     display: inline-block;
     font-size: 2rem;
@@ -36,6 +38,7 @@
     box-shadow: 4px 4px 0 0 var(--blue);
   }
   h2 {
+    font-weight: 400;
     background: var(--theme-color);
     display: inline-block;
     font-size 1.5rem;
@@ -44,6 +47,7 @@
     box-shadow: 4px 4px 0 0 var(--blue);
   }
   h3 {
+    font-weight: 400;
     background: var(--theme-color);
     display: inline-block;
     font-size 1.25rem;
@@ -51,7 +55,7 @@
     box-shadow: 4px 4px 0 0 var(--blue);
     margin-bottom: .5rem;
   }
-  .hand {
+  .round {
     background: var(--white);
     max-width: 30rem;
     border: 4px solid var(--theme-color);
@@ -65,51 +69,51 @@
     Each hand consists of 13 tricks.
     <br>Each trick is worth 10 points.
     <br>Each player keeps their own score.
-    <br>Switch partners after each hand.
+    <br>Switch partners after each round.
   </h3>
-  <div class="hand">
-    <h2>hand 1</h2>
+  <div class="round">
+    <h2>round 1</h2>
     <ol>
-      <li>Spades are trumps.</li>
-      <li>No trumps. Winners add 20pts to score.</li>
-      <li>Clubs are trump.</li>
-      <li>Hearts are trump. Do NOT look at cards.</li>
+      <li>♠️  are trump.</li>
+      <li>No trump. Winners add 20 to score.</li>
+      <li>♣️  are trump.</li>
+      <li>♥️  are trump. Do NOT look at cards.</li>
     </ol>
   </div>
-  <div class="hand">
-    <h2>hand 2</h2>
+  <div class="round">
+    <h2>round 2</h2>
     <ol>
-      <li>Spades are trump. Losers subtract 10 pts from score.</li>
-      <li>Clubs are trump. Winners add 100 pts.</li>
+      <li>♠️  are trump. Losers subtract 10 from score.</li>
+      <li>♣️  are trump. Winners add 100.</li>
       <li>No trump. Winners take all score.</li>
-      <li>Diamonds are trump. Winners and losers trade score.</li>
+      <li>♦️  are trump. Winners and losers trade score.</li>
     </ol>
   </div>
-  <div class="hand">
-    <h2>hand 3</h2>
+  <div class="round">
+    <h2>round 3</h2>
     <ol>
-      <li>Clubs are trump. Do NOT look at cards.</li>
-      <li>Hearts are trump.  Winner doubles score.</li>
-      <li>Cut for trump.  Winners add 60pts.</li>
+      <li>♣️  are trump. Do NOT look at cards.</li>
+      <li>♥️  are trump.  Winner doubles score.</li>
+      <li>Cut for trump.  Winners add 60.</li>
       <li>No trump. Losers take all score!</li>
     </ol>
   </div>
-  <div class="hand">
-    <h2>hand 4</h2>
+  <div class="round">
+    <h2>round 4</h2>
     <ol>
-      <li>Spades are trump. Losers subtract 10 from score.</li>
-      <li>Hearts are trump.  Winners and Losers trade scores.</li>
-      <li>Diamonds are trump.  Winners add 100 to score.</li>
-      <li>Clubs are trump.  Winners double score.</li>
+      <li>♠️  are trump. Losers subtract 10 from score.</li>
+      <li>♥️  are trump.  Winners and Losers trade scores.</li>
+      <li>♦️  are trump.  Winners add 100 to score.</li>
+      <li>♣️  are trump.  Winners double score.</li>
     </ol>
   </div>
-  <div class="hand">
-    <h2>hand 5</h2>
+  <div class="round">
+    <h2>round 5</h2>
     <ol>
-      <li>Diamonds are trump.  Winner takes all.</li>
+      <li>♦️  are trump.  Winner takes all.</li>
       <li>No trumps.  Winners add 200 to score.</li>
-      <li>Clubs are trump.  Losers take all.</li>
-      <li>Hearts are trump. Winners and losers trade scores.</li>
+      <li>♣️  are trump.  Losers take all.</li>
+      <li>♥️  are trump. Winners and losers trade scores.</li>
     </ol>
   </div>
 </body>
